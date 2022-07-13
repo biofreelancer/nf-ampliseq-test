@@ -7,7 +7,7 @@ nextflow run nf-core/ampliseq \
   --metadata 'metadata.tsv' \
   --max_cpus 2 \
   --trunc_qmin 20 \
-  --max_memory '8.GB' \
+  --max_memory '4.GB' \
   --single_end \
   --min_frequency 2 \
   -resume \
